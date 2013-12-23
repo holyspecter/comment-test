@@ -1,0 +1,47 @@
+* {
+	text-align: center;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#layout {
+	background-color: #B0B0B0 ;
+	border: 1px solid black;
+	margin: 0 25% 0 25%;	
+	padding: 20px;	
+}
+
+#form-add {
+	border: 2px solid white;	
+	margin: 10px auto;	
+	background-color: #E0E0E0;
+	width: 300px;
+	
+}
+
+div#form-errors {
+	color: red;
+	display: none;	
+}
+
+.page, #submit {
+	cursor: pointer;
+}
+
+.current-page {
+	color: gray;
+	font-size: 1.4em;
+}
+
+.comment {
+	text-align: left;
+}
+
+.date {
+	color: gray;
+	float: right;
+	font-size: 0.7em;	
+}
